@@ -2,17 +2,6 @@ import React, { useState } from 'react';
 import authors from './authors';
 import './Search.css';
 
-let author = 0;
-
-  fetch('./authors.json')
-  .then((response) => response.json())
-  .then((json) => author = json)
-
-  
-
-console.log('Busca de autor ' + author.id)
-console.log(author);
-
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
