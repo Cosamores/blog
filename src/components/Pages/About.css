@@ -20,6 +20,12 @@
     
   }
   
+  .soundcloud {
+      margin-top: 50px;
+      width: 60%;
+  
+  }
+
   @media screen and (max-width: 768px) {
     p {
       width: 100%;
