@@ -1,5 +1,5 @@
 import React from 'react';
-import authors from './authors';
+import authors from '../assets/authors';
 
 let author = 0;
 

@@ -1,0 +1,45 @@
+.Author-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .Author-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Author-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .Author-container input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .Author-container textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .Author-container button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
