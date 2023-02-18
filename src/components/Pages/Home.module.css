@@ -12,17 +12,22 @@
     
 }
 
-@media screen and (max-width: 768px) {
-    home {
-      width: 100%;
-    }
-  }
 
-  footer {
+footer {
     width: 100%;
     display: fixed;
     bottom: 0;
     margin-top: 200px;
     overflow: hidden;
 
+  }
+
+  
+@media screen and (max-width: 368px) {
+    home {
+      width: 100%;
+    }
+    footer {
+        width: 80%;
+    }
   }
