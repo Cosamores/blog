@@ -14,7 +14,7 @@ const images = [
   //{ src: "https://img.ibxk.com.br/2017/07/13/13160112901226.jpg", alt: "Image 1" },
   //{ src: "https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg", alt: "Image 2" },
   //{ src: "https://img.ibxk.com.br/materias/5866/21577.jpg", alt: "Image 3" },
-  { src: "../components/assets/1.png", alt: "Winged violin" },
+  //{ src: "../components/assets/1.png", alt: "Winged violin" },
 ];
 
 
