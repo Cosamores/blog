@@ -5,7 +5,7 @@ import "./Navbar.css";
 console.log('navbar aqui');
 const Navbar = () => (
   <nav className="Navbar">
-    <h2 className="title">BLOG DO COSAMORES - EM CONSTRUÇÃO</h2>
+    <h2 className="title">BLOG DO COSAMORES</h2>
     <ul className="Navbar-list">
       <li className="Navbar-item">
         <Link to="/" className="Navbar-link">Home</Link>
