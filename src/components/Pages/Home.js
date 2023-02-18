@@ -8,9 +8,9 @@ import styles from './Home.module.css';
 //import Posts from './Posts';
 
 const images = [
-  { src: "https://i1.sndcdn.com/avatars-000186321378-oajnhw-t500x500.jpg", alt: "Image 1" },
   { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsCQ6jzjU6TTQVwIjfavzQPZP-3W_s4AAy-g&usqp=CAU", alt: "Image 1" },
-
+  { src: "https://i1.sndcdn.com/avatars-000186321378-oajnhw-t500x500.jpg", alt: "Image 1" },
+  
   //{ src: "https://img.ibxk.com.br/2017/07/13/13160112901226.jpg", alt: "Image 1" },
   //{ src: "https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg", alt: "Image 2" },
   //{ src: "https://img.ibxk.com.br/materias/5866/21577.jpg", alt: "Image 3" },
