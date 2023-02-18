@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     right: 0;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     
@@ -16,4 +16,16 @@
     p {
       width: 100%;
     }
+  }
+
+  footer {
+    width: 700px;
+    background-color: aqua;
+    display: fixed;
+    bottom: 0;
+    margin-top: 200px;
+   
+    
+   
+
   }
