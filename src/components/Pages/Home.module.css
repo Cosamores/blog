@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    p {
+    home {
       width: 100%;
     }
   }
