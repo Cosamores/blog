@@ -19,7 +19,9 @@ const Contact = () => {
       <ul>
         {/* <li>Endereço: Av. Exemplo 123</li>
         <li>Telefone: (11) 12345-6789</li> */}
-        <li>E-mail: cosamores@gmail.com</li>
+        <li >E-mail: <a href="mailto:">diegocosamores@gmail.com</a></li>
+        <li >꧁ <a href="https://linktr.ee/cosamores?utm=blog">Link Tree</a>  ههههه  <a href="https://github.com/Cosamores"> GitHub</a> ꧂ </li>
+        
       </ul>
       </footer>
     </div>
