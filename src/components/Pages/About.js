@@ -8,7 +8,7 @@ const AboutPage = () => {
       
       <Navbar/>
       <h1>Sobre</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel purus eget dolor blandit auctor. Duis at justo eget dui feugiat tempor. Proin a enim risus. Nam id gravida diam. Aliquam erat volutpat. Praesent dictum quis nisi quis scelerisque. Nulla facilisi. Nullam euismod eros sit amet ipsum euismod, in feugiat risus viverra. Proin in blandit libero. Proin euismod congue magna eu euismod. Aliquam in malesuada sapien. Nam ac nulla quis risus congue malesuada. Nulla tempor, purus euismod congue pulvinar, odio ligula sollicitudin sem, eu hendrerit lacus metus in massa.</p>
+      <p>Comecei este projeto para publicar algumas coisas que escrevo. O site ainda está em constução, mas já subi aqui para ter uma ideia de como fica na tela. <br/> Este é meu primeiro site e estou com uma ótima expectativa de ver este projeto realemente completo.<br/> Volte em breve!</p>
     </div>
   );
 };

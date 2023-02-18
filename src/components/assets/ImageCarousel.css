@@ -1,6 +1,6 @@
 .ImageCarousel {
   display: flex;
-  width:25em;
+  width: 27em;
   height: 30em;
   position: relative;
   overflow: hidden;
@@ -56,3 +56,4 @@
   color: burlywood;
   opacity: 60%; 
 }
+

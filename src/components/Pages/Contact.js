@@ -8,7 +8,8 @@ const Contact = () => {
       <Navbar/>
       <h1>Contato</h1>
       <form>
-        <input type='text' placeholder='Nome' />
+        <h2>O formulário ainda não funciona.</h2>
+        <input type="text" placeholder="Nome" />
         <input type='email' placeholder='E-mail' />
         <textarea placeholder='Mensagem' />
         <button type='submit'>Enviar</button>
@@ -16,9 +17,9 @@ const Contact = () => {
       <footer>
       <p>Dados de contato:</p>
       <ul>
-        <li>Endereço: Av. Exemplo 123</li>
-        <li>Telefone: (11) 12345-6789</li>
-        <li>E-mail: contato@exemplo.com</li>
+        {/* <li>Endereço: Av. Exemplo 123</li>
+        <li>Telefone: (11) 12345-6789</li> */}
+        <li>E-mail: cosamores@gmail.com</li>
       </ul>
       </footer>
     </div>

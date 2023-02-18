@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   
   h1 {
@@ -10,12 +11,13 @@
   }
   
   p {
-    font-size: 1.2rem;
-    line-height: 1.5;
+    font-size: 2.0em;
+    line-height: 1.8;
     margin-bottom: 2rem;
     text-align: justify;
-    width: 80%;
+    width: 60%;
     color: white;
+    
   }
   
   @media screen and (max-width: 768px) {
