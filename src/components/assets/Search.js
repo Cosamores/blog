@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import authors from './authors';
+import './Search.css';
 
 let author = 0;
 
@@ -28,7 +29,7 @@ const Search = () => {
   };
 
   return (
-    <div>
+    <div className="search-container">
       <h2>Search</h2>
       <form onSubmit={handleSubmit}>
         <input

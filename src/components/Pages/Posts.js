@@ -1,27 +1,16 @@
 import React from 'react';
 import authors from '../assets/authors';
-
-let author = 0;
-
-  fetch('./authors.json')
-  .then((response) => response.json())
-  .then((json) => author = json)
-
-  
-
-console.log('Post de autor ' + author.id)
-console.log(author);
-
+import './Posts.css';
 
 console.log('post lido');
 
 const Posts = () => {
   return (
-    <div>
+    <div className="post-container">
       <h2>Posts</h2>
       {authors.map((author) => (
-        <div key={author.id}>
-          <h3>{author.name}</h3>
+        <div className="post" key={author.id}>
+          <button>{author.name}</button>
           <p>{author.post}</p>
         </div>
       ))}

@@ -1,0 +1,49 @@
+/* Estilos para o componente Posts */
+
+/* Estilo para o cabeçalho h2 */
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+  }
+  
+  /* Estilo para o contêiner dos posts */
+  .post-container {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50em;
+    height: 40em;
+    background-color: rgb(38, 103, 143);
+    border-radius: 15%;
+    box-shadow: 5px 0px 10px 0px rgba(105, 8, 8, 0.75);
+  }
+  
+  /* Estilo para cada post */
+  .post {
+    background-color: #2e295f;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilo para o título de cada post */
+  .post button {
+    margin-top: 1em;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para o corpo de cada post */
+  .post p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  
