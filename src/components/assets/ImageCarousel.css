@@ -61,6 +61,6 @@
 
 @media screen and (max-width: 368px) {
 .ImageCarousel {
-    width: 100%;
+    width: 80%;
   }
 }
