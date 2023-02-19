@@ -63,8 +63,10 @@
   }
   
   .footer {
-    display: inline;
-    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: 0 auto;
     margin-top: 110px;
     border: 2px dotted rgb(27, 27, 83);
@@ -90,8 +92,7 @@
     opacity: 95%;
   }
 
-  .footer a:visited
-  .footer .email {
+  .footer a:visited {
     color: white;
   }
 
@@ -99,4 +100,4 @@
     p, .footer {
       width: 80%;
     }
-  }
+}
