@@ -8,14 +8,6 @@ const Contact = () => {
     <div className='ContactPage'>
       <Navbar/>
       <h1>Contato</h1>
-      <form>
-        <h2>O formulário ainda não funciona.</h2>
-        <input type="text" placeholder="Nome" />
-        <input type='email' placeholder='E-mail' />
-        <textarea placeholder='Mensagem' />
-        <button type='submit'>Enviar</button>
-      </form>
-      
       <Card className="footer">
       <ul>
         {/* <li>Endereço: Av. Exemplo 123</li>
@@ -28,6 +20,16 @@ const Contact = () => {
         
       </ul>
       </Card>
+      
+      
+      <form>
+        <h2>O formulário ainda não funciona.</h2>
+        <input type="text" placeholder="Nome" />
+        <input type='email' placeholder='E-mail' />
+        <textarea placeholder='Mensagem' />
+        <button type='submit'>Enviar</button>
+      </form>
+      
     </div>
   );
 };

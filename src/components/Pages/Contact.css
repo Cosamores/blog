@@ -77,7 +77,6 @@
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    margin-top: 60px;
     border: 2px dotted rgb(27, 27, 83);
     width: 330px !important;
     height: 260px !important;
@@ -95,11 +94,11 @@
     background-color: transparent;
     color: rgb(255, 255, 255);
     transition: 0.5s;  
-    transition-timing-function: ease;
+    transition-timing-function: ease-in-out;
     font-size: 1.1em;
     width: 350px !important;
     height: 280px !important;
-    margin-top: 105px;  
+    margin-top: -10px;  
   }
 
   .footer a:visited {
