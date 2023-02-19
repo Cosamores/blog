@@ -1,7 +1,23 @@
+:root {
+  --angle: 45deg;
+  --opacity: 0.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 .ContactPage {
     margin: 0 auto;
     padding: 0;
     color: #ded0a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   
   h1 {
@@ -70,26 +86,29 @@
     margin: 0 auto;
     margin-top: 110px;
     border: 2px dotted rgb(27, 27, 83);
-    width: 570px !important;
-    height: 70px !important;
+    width: 320px !important;
+    height: 260px !important;
     padding-top: 2%;
-    padding-left: 3%;
+    padding-left: 0%;
     font-size: 1.2em;
     color: rgb(244, 223, 202);
+    
   }
 
   .footer:hover,
   .footer:focus { 
-     border: 2px solid rgba(219, 213, 255, 0.534);
-    background-color: rgba(228, 222, 247, 0.585);
+     border: 2px dotted rgb(219, 213, 255);
+     
+    background-color: transparent;
     color: rgb(255, 255, 255);
     transition: 0.5s;  
     transition-timing-function: ease-in-out;
     font-size: 1.3em;
-    width: 610px !important;
-    height: 70px !important;
+    width: 340px !important;
+    height: 280px !important;
     margin-top: 105px;
     opacity: 95%;
+  
   }
 
   .footer a:visited {
@@ -101,3 +120,7 @@
       width: 80%;
     }
 }
+
+    
+
+
