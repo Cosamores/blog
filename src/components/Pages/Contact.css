@@ -66,7 +66,7 @@
     display: inline;
     white-space: nowrap;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 110px;
     border: 2px dotted rgb(27, 27, 83);
     width: 570px !important;
     height: 70px !important;
@@ -86,7 +86,7 @@
     font-size: 1.3em;
     width: 610px !important;
     height: 70px !important;
-    margin-top: 110px;
+    margin-top: 105px;
     opacity: 90%;
   }
   a:visited {
