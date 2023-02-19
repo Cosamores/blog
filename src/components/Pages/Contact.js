@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../UI/Navbar';
 import './Contact.css';
+import Card from '../UI/Card';
 
 const Contact = () => {
   return (
@@ -14,16 +15,15 @@ const Contact = () => {
         <textarea placeholder='Mensagem' />
         <button type='submit'>Enviar</button>
       </form>
-      <footer>
-      <p>Dados de contato:</p>
+      
+      <Card className="footer">
       <ul>
         {/* <li>Endereço: Av. Exemplo 123</li>
         <li>Telefone: (11) 12345-6789</li> */}
-        <li >E-mail: <a href="mailto:">diegocosamores@gmail.com</a></li>
-        <li >꧁ <a href="https://linktr.ee/cosamores?utm=blog">Link Tree</a>  ههههه  <a href="https://github.com/Cosamores"> GitHub</a> ꧂ </li>
+        <li > ꧁ <a href="mailto:">diegocosamores@gmail.com</a> ههههه <a href="https://linktr.ee/cosamores?utm=blog">Link Tree</a>  ههههه  <a href="https://github.com/Cosamores"> GitHub</a> ꧂ </li>
         
       </ul>
-      </footer>
+      </Card>
     </div>
   );
 };

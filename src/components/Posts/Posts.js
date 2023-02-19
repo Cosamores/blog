@@ -1,5 +1,5 @@
 import React from 'react';
-import authors from '../assets/authors';
+import authors from '../assets/authors.js';
 import './Posts.css';
 
 console.log('post lido');

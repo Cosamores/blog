@@ -1,7 +1,6 @@
 .ContactPage {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
     color: #996363;
   }
   
@@ -35,6 +34,8 @@
     align-items: center;
     margin-top: 0em;
     justify-content: center;
+    margin: 0 auto;
+  
   }
   
   input,
@@ -61,15 +62,39 @@
     background-color: #555;
   }
   
-  footer {
-
+  .footer {
     display: inline;
-    align-items: center;
-    flex-wrap: nowrap;
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-top: 120px;
+    border: 2px dotted rgb(27, 27, 83);
+    width: 570px !important;
+    height: 70px !important;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-size: 1.2em;
+    color: rgb(244, 223, 202);
+  }
+
+  .footer:hover,
+  .footer:focus { 
+     border: 2px solid rgba(219, 213, 255, 0.534);
+    background-color: rgba(228, 222, 247, 0.585);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;  
+    transition-timing-function: ease-in-out;
+    font-size: 1.3em;
+    width: 610px !important;
+    height: 70px !important;
+    margin-top: 110px;
+    opacity: 90%;
+  }
+  a:visited {
+    color: inherit;
   }
 
   @media screen and (max-width: 768px) {
-    p {
-      width: 100%;
+    p, form {
+      width: 80%;
     }
   }

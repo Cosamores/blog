@@ -12,14 +12,15 @@
   
   p {
     width: 80%;
-    font-size: 2.0em;
+    font-size: 1.8em;
     line-height: 1.8;
     margin-bottom: 2rem;
     text-align: justify;
     color: white;
     margin: 2px auto;
-    margin-left: 20px;
-    margin-right: 20px;;   
+    margin-left: 10%;
+    margin-right: 10%;   
+
   }
   
   .soundcloud {

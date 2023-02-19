@@ -3,11 +3,15 @@
   width: 100%;
   max-width: 90%;
   min-width: 20%;
-
+}
 
 @media screen and (max-width: 500px) {
    .App {
     width: 100%;
   }
- 
+ .background {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 19px;
+ }
 }

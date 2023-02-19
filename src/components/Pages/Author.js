@@ -1,5 +1,5 @@
 import React from 'react';
-import Posts from './Posts'
+import Posts from '../Posts/Posts';
 import Search from '../assets/Search';
 import authors from '../assets/authors';
 import Navbar from '../UI/Navbar';

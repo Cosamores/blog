@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ImageCarousel.css"
+import './ImageCarousel.css';
 
 const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -15,6 +15,7 @@ const ImageCarousel = ({ images }) => {
   };
 
   return (
+    
     <div className="ImageCarousel">
       <button className="ImageCarousel-button left" onClick={previousImage}>
         {"<"}
@@ -40,6 +41,7 @@ const ImageCarousel = ({ images }) => {
         {">"}
       </button>
     </div>
+    
   );
 };
 
