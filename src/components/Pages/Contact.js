@@ -20,7 +20,7 @@ const Contact = () => {
       <ul>
         {/* <li>Endereço: Av. Exemplo 123</li>
         <li>Telefone: (11) 12345-6789</li> */}
-        <li > ꧁ <a href="mailto:">diegocosamores@gmail.com</a> ههههه <a href="https://linktr.ee/cosamores?utm=blog">Link Tree</a>  ههههه  <a href="https://github.com/Cosamores"> GitHub</a> ꧂ </li>
+        <li > ꧁ <a href="mailto:" className='email'>diegocosamores@gmail.com</a> ههههه <a href="https://linktr.ee/cosamores?utm=blog">Link Tree</a>  ههههه  <a href="https://github.com/Cosamores"> GitHub</a> ꧂ </li>
         
       </ul>
       </Card>

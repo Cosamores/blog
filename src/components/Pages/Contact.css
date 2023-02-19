@@ -1,7 +1,7 @@
 .ContactPage {
     margin: 0 auto;
     padding: 0;
-    color: #996363;
+    color: #ded0a2;
   }
   
   h1 {
@@ -87,10 +87,12 @@
     width: 610px !important;
     height: 70px !important;
     margin-top: 105px;
-    opacity: 90%;
+    opacity: 95%;
   }
-  a:visited {
-    color: inherit;
+
+  .footer a:visited
+  .footer .email {
+    color: white;
   }
 
   @media screen and (max-width: 768px) {

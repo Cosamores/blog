@@ -12,6 +12,9 @@
  .background {
   background-repeat: no-repeat;
   background-position: center;
-  height: 19px;
  }
+
+a:visited{
+  color: rgb(25, 11, 66)
+}
 }
