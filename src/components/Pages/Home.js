@@ -1,16 +1,13 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
 import ImageCarousel from '../image-carousel/ImageCarousel';
 import Navbar from '../UI/Navbar';
-//import Card from '../UI/Card';
 import styles from './Home.module.css';
-//import Search from '../assets/Search';
-import Posts from '../Posts/Posts';
+import Violin1 from "../assets/images/cosamores.png"
 
 const images = [
   { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsCQ6jzjU6TTQVwIjfavzQPZP-3W_s4AAy-g&usqp=CAU", alt: "Image 1" },
   { src: "https://i1.sndcdn.com/avatars-000186321378-oajnhw-t500x500.jpg", alt: "Image 2" },
-  { src: "../assets/images/cosamores.png", alt: "Aulas" },
+  { src: Violin1, alt: "Aulas" },
   //{ src: "https://img.ibxk.com.br/2017/07/13/13160112901226.jpg", alt: "Image 1" },
   //{ src: "https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg", alt: "Image 2" },
   //{ src: "https://img.ibxk.com.br/materias/5866/21577.jpg", alt: "Image 3" },

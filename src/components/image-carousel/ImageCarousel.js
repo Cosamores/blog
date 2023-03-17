@@ -24,7 +24,7 @@ const ImageCarousel = ({ images }) => {
         {images.map((image, index) => (
           <img
             key={image.alt}
-            src={require(image.src)}
+            src={image.src}
             alt={image.alt}
             className={`ImageCarousel-image ${
               index === currentIndex ? "active" : ""
