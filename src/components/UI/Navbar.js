@@ -3,12 +3,15 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 console.log('navbar aqui');
-const Navbar = () => (
+
+console.log(window.location.pathname)
+const Navbar = () => {
+  return (
   <nav className="Navbar">
     <h2 className="title">BLOG DO COSAMORES</h2>
     <ul className="Navbar-list">
       <li className="Navbar-item">
-        <Link to="/" className="Navbar-link">Home</Link>
+        <Link to="/" className="Navbar-link" >Home</Link>
       </li>
       {/* <li className="Navbar-item">
         <Link to="/authors" className="Navbar-link">Autores</Link>
@@ -21,6 +24,7 @@ const Navbar = () => (
       </li>
     </ul>
   </nav>
-);
+)
+}
 
 export default Navbar;
