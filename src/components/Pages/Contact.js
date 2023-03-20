@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../UI/Navbar';
 import './Contact.css';
 import Card from '../UI/Card';
+import Form from '../assets/Form';
 
 const Contact = () => {
   return (
@@ -20,16 +21,7 @@ const Contact = () => {
         
       </ul>
       </Card>
-      
-      
-      <form>
-        <h2>O formulário ainda não funciona.</h2>
-        <input type="text" placeholder="Nome" />
-        <input type='email' placeholder='E-mail' />
-        <textarea placeholder='Mensagem' />
-        <button type='submit'>Enviar</button>
-      </form>
-      
+      <Form/>
     </div>
   );
 };
