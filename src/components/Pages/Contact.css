@@ -37,40 +37,7 @@
     margin-bottom: 0.6rem;
   }
   
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0em;
-    justify-content: center;
-    margin: 0 auto;
-    justify-content: space-evenly;
-  }
-  
-  input,
-  textarea {
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    width: 30%;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button[type='submit'] {
-    background-color: #333;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  
-  button[type='submit']:hover {
-    background-color: #555;
-  }
-  
+
   .footer {
     display: flex;
     justify-content: center;
